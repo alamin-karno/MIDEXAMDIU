@@ -26,7 +26,7 @@ public class NextActivity extends AppCompatActivity {
 
     public void process(View view) {
 
-        int remainder = count/LastDigitOfID;
+        int remainder = count % LastDigitOfID;
 
         Toast.makeText(this, "Name: "+name+" , ID: "+id+" , Remainder Value: "+remainder, Toast.LENGTH_SHORT).show();
 
