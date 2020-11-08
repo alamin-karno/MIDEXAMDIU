@@ -12,9 +12,9 @@ public class StartActivity extends AppCompatActivity {
 
     int count = 0;
     EditText nameET,idET;
-    public static String NAME = "This is name";
-    public static String ID = "This is ID";
-    public static String COUNT = "This is count value";
+    public static String NAME = "Name String";
+    public static String ID = "ID String";
+    public static String COUNT = "Count Value String";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

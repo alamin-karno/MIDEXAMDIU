@@ -11,7 +11,7 @@ public class NextActivity extends AppCompatActivity {
 
     String name,id;
     int count;
-    int myIdLastDigit = 1;
+    int LastDigitOfID = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +26,9 @@ public class NextActivity extends AppCompatActivity {
 
     public void process(View view) {
 
-        int remainder = count/myIdLastDigit;
+        int remainder = count/LastDigitOfID;
 
-        Toast.makeText(this, "Name: "+name+" , ID: "+id+" , Remainder Value: "+remainder, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Name: "+name+" , ID: "+id+" , Remainder Value: "+remainder, Toast.LENGTH_SHORT).show();
 
     }
 }
