@@ -6,20 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".NextActivity">
+    tools:context=".SecondActivity">
 
-    <Button
+
+    <TextView
+        android:id="@+id/resultTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="181-15-12345"
-        android:layout_margin="10dp"/>
-
-    <Button
-        android:onClick="process"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Process Info"
-        android:textAllCaps="false"
-        android:layout_margin="10dp"/>
+        android:text="Result"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
 
 </LinearLayout>

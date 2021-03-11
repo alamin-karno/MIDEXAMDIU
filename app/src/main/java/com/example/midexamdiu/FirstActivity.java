@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class StartActivity extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity {
 
     int count = 0;
     EditText nameET,idET;
@@ -19,7 +19,7 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_first);
 
         nameET = findViewById(R.id.nameET);
         idET = findViewById(R.id.idET);
@@ -41,7 +41,7 @@ public class StartActivity extends AppCompatActivity {
             Toast.makeText(this, "Enter your ID", Toast.LENGTH_SHORT).show();
         }
         else {
-            Intent intent = new Intent(StartActivity.this,NextActivity.class);
+            Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
             intent.putExtra(NAME,name);
             intent.putExtra(ID,id);
             intent.putExtra(COUNT,count);

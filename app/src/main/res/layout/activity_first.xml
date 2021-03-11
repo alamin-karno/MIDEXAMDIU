@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".StartActivity">
+    tools:context=".FirstActivity">
 
     <EditText
         android:id="@+id/nameET"
@@ -37,7 +37,7 @@
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To Next"
+        android:text="Go To"
         android:textAllCaps="false"/>
 
 
